@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+#menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+#perfil a {
+  text-decoration: none;
+  color: #724d4d;
+  font-size: 20px;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 10px;
+}
+
+.rede-social img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+#nome {
+  font-size: 60px;
+}
+
+#sobre {
+  font-family: " Montserrar", sans-serif;
+  font-size: 20px;
+}
+
+#foto-perfil {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+#sobre {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+span {
+  color: #724d4d;
+}
+#perfil {
+  width: 80%;
+  padding-top: 15%;
+  padding-left: 40px;
+}
+
+#aside-perfil {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 20%;
+  text-align: center;
+  background-color: #724d4d;
+}
+
+#conteudo {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.rede-social {
+  display: flex;
+}
+
+.rede-social {
+  color: black;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-self: start;
+  padding: 20px;
+  padding-left: 0px;
+}
+
+#lista-conhecimentos {
+  list-style-type: upper-alpha;
+  font-size: 30px;
+  margin-left: 30px;
+}
+
+#lista-objetivos {
+  list-style-type: circle;
+  font-size: 25px;
+  margin-left: 20px;
+}
